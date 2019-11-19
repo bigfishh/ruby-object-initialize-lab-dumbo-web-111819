@@ -1,15 +1,6 @@
 class Person 
-  attr_accessor :name
-  def initialize(name, breed="Mutt")
+  attr_accessor :name 
+  def initialize(name)
     @name = name
-    @breed = breed 
   end
-  
-  def breed=(breed="Mutt")
-    @breed = breed 
-  end 
-  
-  def breed 
-    @breed
-  end 
 end 
